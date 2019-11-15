@@ -71,7 +71,7 @@ public class TC_SkypeSignIn {
         _driver.findElementById("com.skype.raider:id/signin_password").sendKeys("*****");
         
         //password = (WebElement)_driver.findElementsByClassName("android.widget.EditText").get(1);
-        //password.sendKeys("123qwe789!");
+        //password.sendKeys("*****");
         // 4. Press Continue
         _driver.findElementById("com.skype.raider:id/sign_in_btn").click();
         
